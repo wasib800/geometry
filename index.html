@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-title">
+            <div class="frist">
+                <h2>Ienteractive</h3>
+                <p>geometry genius</p>
+            </div>
+            <div class="second">
+                <button class="btn btn-primary">blog</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="frist d-flex flex-wrap">
+            <div class="row mt-5  p-5 gap-1 " style="align-items: center;">
+                <div class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded border border-primary-subtle">
+                    <img class="img-fluid" src="/images/triangle.png" alt="" srcset="">
+                    <h3>Triangle</h3> 
+                    <p>Area (A) =0.5 *b *h</p> 
+                    <input class="inpt"  type="number" name="" id="" style="width: 1;height: 20; "> <input type="number" name="" id=""> 
+                    <div class="col">
+                        <button id="btn-4" class="btn btn-warning">calculate</button>
+                    </div>
+                </div>
+                <div class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded border border-primary-subtle">
+                    <img class="img-fluid" src="/images/rectangle.png" alt="" srcset="">
+                    <h3>Rectangle</h3>
+                    <p>Area (A) = w I</p>
+                    <textarea name="" id="" cols="1" rows="1"></textarea>
+                    <textarea name="" id="" cols="1" rows="1"></textarea> 
+                    <div class="col">
+                        <button id="btn-4" class="btn btn-warning">calculate</button>
+                    </div>
+                </div>
+                <div class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded border border-primary-subtle">
+                    <img class="img-fluid" src="/images/parallelogram.png" alt="" srcset="">
+                    <h3>parallelogram</h3>
+                    <p>Area (A) =0.5 *b *h</p> <br>
+                    <div class="col">
+                        <button id="btn-4" class="btn btn-warning">calculate</button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section id="frist">
+            <div class="row mt-5  p-5 gap-1  ">
+                <div class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded border border-primary-subtle">
+                    <img class="img" src="/images/rhombus.png" alt="" srcset="">
+                    <p>rhombus</p>
+                </div>
+                <div class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded border border-primary-subtle">
+                    <img class="img" src="/images/pentagon.png" alt="" srcset="">
+                    <p>pentagon</p>
+                </div>
+                <div class="col-md-3 shadow p-3 mb-5 bg-body-tertiary rounded border border-primary-subtle">
+                    <img class="img" src="/images/ellipse.png" alt="" srcset="">
+                    <p>ellipse</p>
+                </div>
+                <div class="col-md-2 shadow p-3 mb-5 bg-body-tertiary rounded border border-primary-subtle">
+                    <!-- <img class="img" src="/images/pentagon.png" alt="" srcset=""> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- wrap section start  -->
+    <div class="container text-center">
+        <div class="row gap-3 mt-5" style="align-items: center;">
+            <div class="col-md-3 rounded border border-primary-subtle  ">
+                <img class="img-fluid" src="/images/triangle.png" alt="" srcset="">
+                <h3>Triangle</h3> 
+                    <p>Area (A) = 0.5 b h</p>
+                    <input class="inpt"  type="number" name="" id="" style="width: 10;height: 20; "> <input type="number" name="" id="">
+                <button class="btn btn-warning">view details</button>
+            </div>
+            <div class="col-md-3 rounded border border-primary-subtle ">
+                <img class=" img-fluid" src="/images/rectangle.png" alt="" srcset="">
+                <h3>Rectangle</h3>
+                    <p>Area (A) = w I</p>
+                    <textarea name="" id="" cols="1" rows="1"></textarea>
+                    <textarea name="" id="" cols="1" rows="1"></textarea>
+                <button class="btn btn-warning">view details</button>
+            </div>
+            <div class="col-md-3 rounded border border-primary-subtle ">
+                <img class="img-fluid" src="/images/parallelogram.png" alt="" srcset="">
+                <h3>parallelogram</h3>
+                    <p>Area (A) = b h</p>
+                    
+                </div>
+                <button class="btn btn-primary">calculate</button>
+                
+            </div>
+        </div>
+    </div>
+    <!-- wrap section end -->
+
+    <div class="calculator-keys">
+  
+        <button type="button" class="operator" value="+" onclick="dis('+')">+</button>
+        <button type="button" class="operator" value="-" onclick="dis('-')">-</button>
+        <button type="button" class="operator" value="*" onclick="dis('*')">*</button>
+        <button type="button" class="operator" value="/" onclick="dis('/')">/</button> <br>
+    
+        <button type="button" value="7" onclick="dis('7')">7</button>
+        <button type="button" value=
+        "8" onclick="dis('8')">8</button>
+        <button type="button" value="9" onclick="dis('8')">9</button><br>
+    
+    
+        <button type="button" value="4" onclick="dis('4')">4</button>
+        <button type="button" value="5" onclick="dis('5')">5</button>
+        <button type="button" value="6" onclick="dis('6')">6</button><br>
+    
+    
+        <button type="button" value="1" onclick="dis('1')">1</button>
+        <button type="button" value="2" onclick="dis('2')">2</button>
+        <button type="button" value="3" onclick="dis('3')">3</button><br>
+    
+    
+        <button type="button" value="0" onclick="dis('0')">0</button>
+        <button type="button" class="decimal" value="." onclick="dis('.')">.</button>
+        <button type="button" class="all-clear" value="all-clear" onclick="clr()">AC</button>        
+    </div>
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="/js/geo.js"></script>
+</body>
+
+</html>

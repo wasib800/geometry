@@ -1,0 +1,78 @@
+.header-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    background-color: crimson;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.img{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    /* margin: 20px 35px; */
+    padding: 18px 35px 5px;
+}
+#frist{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    margin: 20 35px;
+}
+h3{
+    margin-top: 25px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+.parent-container{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 25px;
+background-color: blueviolet;
+color: white;
+}
+.frist-box{
+    border : 1px solid red;
+    box-shadow: 5px 10px 20px 3px;
+    padding: 10px;
+    text-align: center;
+    gap: 10px;
+    margin: 18px 35px;
+}
+.second-box {
+    border : 1px solid rgb(47, 12, 204);
+    box-shadow: 5px 10px 20px 3px;
+    padding: 10px;
+    text-align: center;
+    margin: 18px 35px;
+}
+.third-box {
+    border : 1px solid rgb(47, 12, 204);
+    box-shadow: 5px 10px 20px 3px;
+    padding: 10px;
+    text-align: center;
+    margin: 18px 35px;
+}
+.four-box{
+    margin-top: 350px;
+    /* height: 50vh; */
+    height: 45vh;
+    width: 100%;
+    border : 1px solid rgb(47, 12, 204);
+    box-shadow: 5px 10px 20px 3px;
+    padding: 10px;
+    text-align: start;
+    margin: 18px;
+}
+img{
+    height: 180px;
+    width: 200px;
+}
+
+h4{
+    margin-top: 18px;
+}
